@@ -81,7 +81,7 @@
                 "name": {
                   "default": "mkdocs",
                   "description": "The string name of a known installed theme.",
-                  "type": "string"
+                  "type": ["string", "null"]
                 },
                 "locale": {
                   "default": "en",
